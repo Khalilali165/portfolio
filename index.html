@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khalil Ali | Full Stack Developer & AI Expert</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- Floating Particles Background -->
+<div id="particles"></div>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+    <div class="logo">⚡<span>KA</span></div>
+    <ul class="nav-links" id="navLinks">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="hamburger" id="hamburger">☰</div>
+</nav>
+
+<!-- HERO SECTION -->
+<section id="hero" class="hero">
+    <div class="hero-content">
+        <div class="hero-left">
+            <p class="greeting">👋 Hello, World!</p>
+            <h1>I'm <span class="highlight">Khalil Ali</span></h1>
+            <div class="typing-container">
+                <span id="typing-text"></span><span class="cursor">|</span>
+            </div>
+            <p class="hero-desc">
+                🚀 Full Stack Developer | 🐍 Python Expert | 🤖 AI/ML Enthusiast | 🎯 Problem Solver
+            </p>
+            <div class="hero-badges">
+                <span class="badge">🔥 React.js</span>
+                <span class="badge">🐍 Python</span>
+                <span class="badge">⚙️ DotNet MVC</span>
+                <span class="badge">🤖 AI Tools</span>
+                <span class="badge">📱 Flutter</span>
+                <span class="badge">🔐 CyberSec</span>
+            </div>
+            <div class="hero-buttons">
+                <button class="btn btn-primary"><i class="fas fa-download"></i> Download CV</button>
+                <button class="btn btn-outline" onclick="document.querySelector('#contact').scrollIntoView()"><i class="fas fa-paper-plane"></i> Hire Me</button>
+            </div>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+        <div class="hero-right">
+            <div class="profile-container">
+                <div class="profile-glow"></div>
+                <img src="images/khh.webp" alt="Khalil Ali" class="profile-img">
+                <div class="experience-badge">
+                    <span class="exp-number">2+</span>
+                    <span class="exp-text">Years<br>Coding</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="scroll-indicator">
+        <span>Scroll Down</span>
+        <i class="fas fa-chevron-down"></i>
+    </div>
+</section>
+
+<!-- ABOUT SECTION -->
+<section id="about" class="about">
+    <div class="section-header">
+        <h2>About <span>Me</span></h2>
+        <div class="divider"></div>
+    </div>
+    <div class="about-content">
+        <div class="about-text">
+            <h3>Full Stack Developer with <span>AI Expertise</span></h3>
+            <p>
+                I am a passionate <strong>Full Stack Web Developer</strong> and <strong>Python Programmer</strong> with a deep understanding of modern web technologies. Recently completed AI course with hands-on experience in AI tools. I build <strong>scalable web applications</strong>, <strong>RESTful APIs</strong>, and <strong>intelligent automation solutions</strong>.
+            </p>
+            <div class="about-stats">
+                <div class="stat">
+                    <h4>50+</h4>
+                    <p>Projects Done</p>
+                </div>
+                <div class="stat">
+                    <h4>20+</h4>
+                    <p>Happy Clients</p>
+                </div>
+                <div class="stat">
+                    <h4>10+</h4>
+                    <p>Tech Stacks</p>
+                </div>
+                <div class="stat">
+                    <h4>100%</h4>
+                    <p>Dedication</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SKILLS SECTION -->
+<section id="skills" class="skills">
+    <div class="section-header">
+        <h2>Tech <span>Stack</span></h2>
+        <div class="divider"></div>
+    </div>
+    <div class="skills-grid">
+        <!-- Frontend -->
+        <div class="skill-category">
+            <h3><i class="fas fa-code"></i> Frontend</h3>
+            <div class="skill-items">
+                <div class="skill-item"><img src="https://img.icons8.com/color/48/html-5.png"><span>HTML5</span></div>
+                <div class="skill-item"><img src="https://img.icons8.com/color/48/css3.png"><span>CSS3</span></div>
+                <div class="skill-item"><img src="https://img.icons8.com/color/48/javascript.png"><span>JavaScript</span></div>
+                <div class="skill-item"><img src="https://img.icons8.com/color/48/react-native.png"><span>React.js</span></div>
+                <div class="skill-item"><img src="https://img.icons8.com/color/48/bootstrap.png"><span>Bootstrap</span></div>
+            </div>
+        </div>
+        <!-- Backend -->
+        <div class="skill-category">
+            <h3><i class="fas fa-server"></i> Backend</h3>
+            <div class="skill-items">
+                <div class="skill-item"><img src="https://img.icons8.com/color/48/python.png"><span>Python</span></div>
+                <div class="skill-item"><img src="https://img.icons8.com/color/48/django.png"><span>Django</span></div>
+                <div class="skill-item"><img src="https://img.icons8.com/color/48/net-framework.png"><span>DotNet MVC</span></div>
+                <div class="skill-item"><img src="https://img.icons8.com/color/48/api-settings.png"><span>REST API</span></div>
+            </div>
+        </div>
+        <!-- AI & Tools -->
+        <div class="skill-category">
+            <h3><i class="fas fa-robot"></i> AI & Automation</h3>
+            <div class="skill-items">
+                <div class="skill-item"><img src="https://img.icons8.com/color/48/artificial-intelligence.png"><span>AI/ML</span></div>
+                <div class="skill-item"><img src="https://img.icons8.com/color/48/selenium-test-automation.png"><span>Selenium</span></div>
+                <div class="skill-item"><img src="https://img.icons8.com/color/48/chatgpt.png"><span>ChatGPT</span></div>
+                <div class="skill-item"><img src="https://img.icons8.com/color/48/google-cloud.png"><span>AI Tools</span></div>
+            </div>
+        </div>
+        <!-- Mobile & Other -->
+        <div class="skill-category">
+            <h3><i class="fas fa-mobile-alt"></i> Mobile & More</h3>
+            <div class="skill-items">
+                <div class="skill-item"><img src="https://img.icons8.com/color/48/flutter.png"><span>Flutter</span></div>
+                <div class="skill-item"><img src="https://img.icons8.com/color/48/figma.png"><span>UI Design</span></div>
+                <div class="skill-item"><img src="https://img.icons8.com/color/48/cyber-security.png"><span>CyberSec</span></div>
+                <div class="skill-item"><img src="https://img.icons8.com/color/48/adobe-photoshop.png"><span>Photoshop</span></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- PROJECTS SECTION -->
+<section id="projects" class="projects">
+    <div class="section-header">
+        <h2>Featured <span>Projects</span></h2>
+        <div class="divider"></div>
+    </div>
+    <div class="projects-grid">
+        
+        <!-- Project 1 -->
+        <div class="project-card">
+            <div class="project-img" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); height: 200px; display: flex; align-items: center; justify-content: center;">
+                <i class="fas fa-chart-line" style="font-size: 60px; color: white; opacity: 0.8;"></i>
+                <h3 style="position: absolute; color: white; font-size: 24px; margin-top: 80px; opacity: 0.9;">Admin Dashboard</h3>
+            </div>
+            <div class="project-info">
+                <h4>Admin Dashboard</h4>
+                <p>Full responsive dashboard with analytics, charts and data management</p>
+                <span class="project-tech">HTML • CSS • JavaScript</span>
+            </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-card">
+            <div class="project-img" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); height: 200px; display: flex; align-items: center; justify-content: center;">
+                <i class="fas fa-shopping-cart" style="font-size: 60px; color: white; opacity: 0.8;"></i>
+                <h3 style="position: absolute; color: white; font-size: 24px; margin-top: 80px; opacity: 0.9;">E-Commerce</h3>
+            </div>
+            <div class="project-info">
+                <h4>E-Commerce Website</h4>
+                <p>Full-featured online store with cart, checkout & payment gateway</p>
+                <span class="project-tech">Python • Django • MySQL</span>
+            </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="project-card">
+            <div class="project-img" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); height: 200px; display: flex; align-items: center; justify-content: center;">
+                <i class="fas fa-robot" style="font-size: 60px; color: white; opacity: 0.8;"></i>
+                <h3 style="position: absolute; color: white; font-size: 24px; margin-top: 80px; opacity: 0.9;">AI Chatbot</h3>
+            </div>
+            <div class="project-info">
+                <h4>AI Chatbot Assistant</h4>
+                <p>Intelligent chatbot using Python, OpenAI API & NLP</p>
+                <span class="project-tech">Python • OpenAI • AI/ML</span>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- CONTACT SECTION -->
+<section id="contact" class="contact">
+    <div class="section-header">
+        <h2>Get In <span>Touch</span></h2>
+        <div class="divider"></div>
+    </div>
+    <div class="contact-container">
+        <div class="contact-info">
+            <div class="info-item">
+                <i class="fas fa-envelope"></i>
+                <div><h4>Email</h4><p>khalilali@email.com</p></div>
+            </div>
+            <div class="info-item">
+                <i class="fas fa-phone"></i>
+                <div><h4>Phone</h4><p>+92 300 1234567</p></div>
+            </div>
+            <div class="info-item">
+                <i class="fas fa-map-marker-alt"></i>
+                <div><h4>Location</h4><p>Pakistan</p></div>
+            </div>
+        </div>
+        <form class="contact-form">
+            <div class="form-row">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+            </div>
+            <input type="text" placeholder="Subject">
+            <textarea placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit" class="btn btn-primary"><i class="fas fa-paper-plane"></i> Send Message</button>
+        </form>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <div class="footer-content">
+        <p>&copy; 2024 <span>Khalil Ali</span>. All Rights Reserved.</p>
+        <p>Built with ❤️ using HTML, CSS & JavaScript</p>
+    </div>
+</footer>
+
+<script src="portfolio.js"></script>
+</body>
+</html>
